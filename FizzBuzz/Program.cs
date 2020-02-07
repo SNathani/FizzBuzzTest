@@ -6,7 +6,11 @@ namespace FizBuzz
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var basic = new FizzBuzzBasic();
+            basic.Run();
+
+            Console.Write("\r\nPress ANY key to exit");
+            Console.ReadKey();
         }
     }
 }
